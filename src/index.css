@@ -53,4 +53,11 @@ main{
   border: none;
   cursor: pointer;
 }
+/* .meme{
+  
+} */
+
+.meme--image{
+  max-width: 100%;
+}
 
