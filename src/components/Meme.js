@@ -13,7 +13,7 @@ export default function Meme() {
       .then((res) => res.json())
       .then((data) => setAllMemes(data.data.memes));
   }, []);
-  console.log(allMemes);
+ 
 
   function getMemeImage() {
     const randomNumber = Math.floor(Math.random() * allMemes.length);

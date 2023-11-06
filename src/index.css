@@ -8,6 +8,8 @@ body{
 }
 main{
   padding: 36px;
+  display: flex;
+  flex-direction: column;
 }
 
 .header{
@@ -58,6 +60,25 @@ main{
 } */
 
 .meme--image{
-  max-width: 100%;
+  padding: 2.5rem;
+  max-height: 500px;
+  max-width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+ 
 }
 
+.meme--top-text{
+position: absolute;
+top:30%;
+left:40%;
+font-size: 2rem;
+color: white;
+text-shadow: 2px 2px 2px black;
+
+}
+
+.meme--bottom-text{
+
+}
